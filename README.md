@@ -28,7 +28,7 @@ Flags can be combined
 
 `LIBRARYEX_BUFFER`: Map the module from memory instead from disk.
 
-#### Function: `LdrLibrary` and `LdrLibraryFree`
+#### Function: `LdrLibrary` 
 Easy to use function to load a library into memory. The first param, based on what flags has been specified, can be either a wide string module name to load or memory address where the PE is located at.
 
 ```c
